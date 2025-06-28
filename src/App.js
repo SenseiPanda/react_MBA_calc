@@ -112,12 +112,7 @@ const App = () => {
   };
 
   // Format number for display
-  const formatNumber = (value, isPercentage = false) => {
-    if (isPercentage) {
-      return value + '%';
-    }
-    return Math.round(value / 1000) + 'K';
-  };
+
 
   // Format currency for results
   const formatCurrency = (value) => {
